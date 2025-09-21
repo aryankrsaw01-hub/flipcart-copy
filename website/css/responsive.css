@@ -1,0 +1,27 @@
+@media screen and (max-width:900px){
+    body{
+        background: red;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 55px 12px 0 ;
+    }
+    ul{
+        justify-content: center;
+        background: var(--main--bg--color);
+    }
+    .search{
+        justify-content: center;
+        margin: 0;
+        background-color: var(--main--bg--color);
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container image-rendering: {
+        margin: 92px auto 0 auto;
+    };
+}
